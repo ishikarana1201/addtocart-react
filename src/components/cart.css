@@ -110,7 +110,7 @@ header {
 .main-cart-section .total-items {
   font-style: normal;
   font-weight: normal;
-  /* font-size: 1.8rem; */
+  font-size: 1.8rem;
   text-transform: capitalize;
   color: var(--main-color);
   margin-bottom: 5rem;
@@ -370,4 +370,17 @@ header {
   .card-total button {
     margin-bottom: 3rem;
   }
+}
+.card-total .clear-cart {
+  margin-left: 3rem;
+  background-color: rgb(209, 61, 61);
+}
+
+.card-total .clear-cart:hover {
+  background-color: rgb(197, 5, 5);
+}
+.total-items,
+h1 {
+  font-size: 17px;
+  padding: 0.5%;
 }
